@@ -12,7 +12,6 @@
 
 ### 1. Checked nginx service status
 
-```bash
 systemctl status nginx
 
 Output:
