@@ -14,19 +14,19 @@
 
 systemctl status nginx
 
-Output:
+## Output:
 
 Active: inactive (dead)
 
 Conclusion: nginx service was stopped.
 
-2. Reviewed nginx logs
+### 2. Reviewed nginx logs
 journalctl -u nginx --no-pager
 
 
 Logs showed nginx started successfully earlier and was later stopped manually.
 
-Resolution
+### Resolution
 
 Restarted nginx service:
 
