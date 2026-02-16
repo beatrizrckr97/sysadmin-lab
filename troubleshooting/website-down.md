@@ -14,7 +14,7 @@
 
 systemctl status nginx
 
-## Output:
+Output:
 
 Active: inactive (dead)
 
