@@ -26,7 +26,7 @@ journalctl -u nginx --no-pager
 
 Logs showed nginx started successfully earlier and was later stopped manually.
 
-### Resolution
+## Resolution
 
 Restarted nginx service:
 
